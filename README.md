@@ -17,8 +17,6 @@ Primarily includes highlighting for comments, variables, strings, and keywords.
 
 ## Local Development
 
-Until this extension is available to download through the marketplace, you will need to download the source code and debug it locally to use it.
-
 1. Clone this repo
 2. Confirm you have [npm](https://www.npmjs.com/get-npm) installed
 3. In a terminal from the parent folder, run `code M204-language-extension` to open the extension code folder in VS Code
