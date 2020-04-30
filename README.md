@@ -9,9 +9,13 @@ Primarily includes highlighting for comments, variables, strings, and keywords.
 ## Requirements
 
 - [VS Code](https://code.visualstudio.com/) installed
-- M204 procedures saved in .txt format
+- M204 procedures saved in .txt forma
 
-## Local Use & Development
+## Install your extension
+
+- To start using the extension with Visual Studio Code, download this repo, copy it into your `<user home>/.vscode/extensions` folder and restart VS Code.
+
+## Local Development
 
 Until this extension is available to download through the marketplace, you will need to download the source code and debug it locally to use it.
 
