@@ -1,0 +1,78 @@
+{
+  "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+  "name": "M204 Language Extension",
+  "fileTypes": ["txt"],
+  "patterns": [
+    {
+      "include": "#keywords"
+    },
+    {
+      "include": "#strings"
+    },
+    {
+      "include": "#punctuation"
+    },
+    {
+      "include": "#comments"
+    },
+    {
+      "include": "#constants-and-special-vars"
+    }
+  ],
+  "repository": {
+    "keywords": {
+      "patterns": [
+        {
+          "name": "keyword.control.m204",
+          "match": "\\b(IF|END|FOR|IN|IS|CALL|STOP|ON|THEN|INCLUDE)\\b"
+        },
+        {
+          "match": "(( EQ )|( NE ))",
+          "name": "keyword.operator.comparison.m204"
+        },
+        {
+          "match": "(=)",
+          "name": "keyword.operator.assignment.m204"
+        },
+        {
+          "match": "(\\-|\\+|\\*|\\/|\\~\\/|%)",
+          "name": "keyword.operator.arithmetic.m204"
+        },
+        {
+          "match": "[ ,\\(]%[A-Z.\\d_]+",
+          "name": "variable.name.source.m204"
+        },
+        {
+          "match": "(?<!\\$)\\b((0(x|X)[0-9a-fA-F]*)|(([0-9]+\\.?[0-9]*)|(\\.[0-9]+))((e|E)(\\+|-)?[0-9]+)?)\\b(?!\\$)",
+          "name": "constant.numeric.m204"
+        }
+      ]
+    },
+    "strings": {
+      "name": "string.quoted.single.m204",
+      "begin": "'",
+      "end": "'"
+    },
+    "punctuation": {
+      "patterns": [
+        {
+          "match": "(,)",
+          "name": "punctuation.comma.m204"
+        }
+      ]
+    },
+    "comments": {
+      "patterns": [
+        {
+          "match": "^\\s*((\\*).*)$",
+          "name": "comment.line.asterisk.m204"
+        }
+      ]
+    },
+    "constants-and-special-vars": {
+      "match": "(?<![a-zA-Z0-9_$])([_$]*[A-Z][a-zA-Z0-9_$]*)",
+      "name": "support.class.m204"
+    }
+  },
+  "scopeName": "source.m204"
+}

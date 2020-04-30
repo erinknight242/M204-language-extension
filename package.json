@@ -1,0 +1,38 @@
+{
+  "name": "m204-language-configuration",
+  "displayName": "M204 Language Configuration",
+  "description": "M204 Language Configuration",
+  "version": "0.0.1",
+  "publisher": "headspring",
+  "license": "MIT",
+  "repository": "https://github.com/HeadspringLabs/M204-language-extension",
+  "engines": {
+    "vscode": "^1.28.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "m204",
+        "extensions": [
+          ".txt"
+        ],
+        "aliases": [
+          "M204",
+          "User Language",
+          "SOUL"
+        ],
+        "configuration": "./m204-language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "m204",
+        "scopeName": "source.m204",
+        "path": "./syntaxes/m204.tmLanguage.json"
+      }
+    ]
+  }
+}
