@@ -39,7 +39,7 @@
           "name": "keyword.operator.arithmetic.m204"
         },
         {
-          "match": "[ ,\\(/\\[]%[A-Z.\\d_]+",
+          "match": "[ ,\\(\\/\\[{]?%[A-Za-z.\\d_]+",
           "name": "variable.name.source.m204"
         },
         {
