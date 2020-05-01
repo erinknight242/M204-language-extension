@@ -1,6 +1,6 @@
 # M204 Language Extension
 
-This VS Code extension can be run to add syntax highlighting for M204 source code exported in .txt format for easier reading.
+This VS Code extension can be used to add syntax highlighting for M204 source code exported in .txt format for easier reading.
 
 ## Features
 
@@ -11,11 +11,11 @@ Primarily includes highlighting for comments, variables, strings, and keywords.
 ## Requirements
 
 - [VS Code](https://code.visualstudio.com/) installed
-- M204 procedures saved in .txt forma
+- M204 procedures saved in .txt format
 
-## Install your extension
+## Install the extension
 
-- To start using the extension with Visual Studio Code, download this repo, copy it into your `<user home>/.vscode/extensions` folder and restart VS Code.
+- This extension is not yet published on the marketplace, so to start using the extension with Visual Studio Code: download this repo, copy it into your `<user home>/.vscode/extensions` folder and restart VS Code.
 
 ## Local Development
 
