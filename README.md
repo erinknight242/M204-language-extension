@@ -6,6 +6,8 @@ This VS Code extension can be run to add syntax highlighting for M204 source cod
 
 Primarily includes highlighting for comments, variables, strings, and keywords.
 
+![Syntax Example](m204-example.png)
+
 ## Requirements
 
 - [VS Code](https://code.visualstudio.com/) installed
