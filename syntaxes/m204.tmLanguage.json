@@ -39,7 +39,7 @@
           "name": "keyword.operator.arithmetic.m204"
         },
         {
-          "match": "[ ,\\(]%[A-Z.\\d_]+",
+          "match": "[ ,\\(/\\[]%[A-Z.\\d_]+",
           "name": "variable.name.source.m204"
         },
         {
@@ -64,7 +64,7 @@
     "comments": {
       "patterns": [
         {
-          "match": "^\\s*((\\*).*)$",
+          "match": "^\\s*\\*.*$",
           "name": "comment.line.asterisk.m204"
         }
       ]
