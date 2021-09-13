@@ -16,6 +16,7 @@ Primarily includes highlighting for comments, variables, strings, and keywords.
 ## Install the extension
 
 - This extension is not yet published on the marketplace, so to start using the extension with Visual Studio Code: download this repo, copy it into your `<user home>/.vscode/extensions` folder and restart VS Code.
+  - On a Mac, you may need to Command-shift-period to show hidden files to reveal your .vscode folder
 
 ## Local Development
 
